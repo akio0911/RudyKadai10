@@ -26,7 +26,7 @@ struct ContentView: View {
                         .foregroundColor(.gray)
                         .frame(maxWidth: .infinity, alignment: .trailing)
                 }.listRowBackground(
-                    backGroundColor[index%3].opacity(0.3))
+                    backGroundColor[index % backGroundColor.count].opacity(0.3))
             }
         }
     }
